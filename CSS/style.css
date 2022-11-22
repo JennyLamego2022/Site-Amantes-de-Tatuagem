@@ -12,3 +12,9 @@ body {
 .itens {
     font-style: italic;
 }
+
+.lista {
+    background-color: white;
+    color: black;
+    text-align: left;
+}
