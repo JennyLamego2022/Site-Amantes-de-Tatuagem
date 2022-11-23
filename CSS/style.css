@@ -4,15 +4,22 @@
 
 body {
     font-size: 12px;
-    text-align: center;
+    /* text-align: center; */
     background-color: #333132;
     color: white;
 }
+
 
 .caixa {
 	width: 940px;
 	position: relative;
 	margin: 0 auto;
+}
+
+#logo{
+    position: relative;
+    width: 180px;
+    height: 80px;
 }
 
 nav {
@@ -29,7 +36,7 @@ nav li {
 
 nav a {
 	text-transform: uppercase;
-	color: hsl(217, 12%, 63%);;
+	color: hsl(217, 12%, 63%);
 	font-weight: bold;
 	font-size: 22px;
 	text-decoration: none;
@@ -37,20 +44,22 @@ nav a {
 }
 
 nav a:hover {
-	color: #C78C19;
+	color: red;
 	text-decoration: underline;
-
 }
-.banner {
-    /* display: inline-block; */
-    /* position: relative; */
-    width: 100%;
-    
+
+#banner {
+    display: flex;
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    margin-top: 30px;
+     
 }
 
 .bem-vindo {
     position: absolute;
-    top: 80px;
+    top: 190px;
     text-align: center;
     font-size: 30px;
     color: white;
@@ -70,15 +79,38 @@ nav a:hover {
     text-align: left;
 }*/
 .principal{
-    display: block;
-    margin-top: 20px;
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-top: 30px;
-    padding-bottom: 50px;
+    display: flex;
+    /* justify-content: center; */
     
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    
+    
+    /* padding-left: 10em;
+    padding-right: 10em; */
+    /* padding-top: 30px;
+    padding-bottom: 50px; */ 
+    
+}
+
+.comunidade{
+    font-size: 30px;
+    text-shadow: 0px 0px 10px red;
+    margin-bottom: 40px;
+    margin-top: 50px;
+
 }
 
 .historia{
     margin-bottom: 15px;
+     max-width: 500px;
+     color: hsl(217, 12%, 63%);
+}
+
+.copyright{
+    margin-top: 200px;
+    margin-bottom: 20px;
+    text-align: center;
 }
