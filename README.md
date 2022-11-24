@@ -7,6 +7,6 @@ Local onde pessoas com a mesma paixão podem trocar ideias e inspiração.
 
 -[x] inserir imagem de cabecalho
 -[x] tituo da pagina com uma mensagem
--[ ] definir os links, Inpirações tattoo, Membros, Depoimentos
--[ ] rodape
--[ ] imagem rodape
+-[x] definir os links, Inpirações tattoo, Membros, Depoimentos
+-[x] rodape
+-[x] imagem rodape
