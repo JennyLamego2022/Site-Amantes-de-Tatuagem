@@ -33,16 +33,20 @@
             <section>
                 <div class="banner">
                     <img id="banner" src="./imagens/banner3.jpg" alt="Banner">
-                    <p>Faça parte da nossa página, junte-se aos Amantes de Tatuagem com o seu depoimento!</p>
+                    <p class="estilo">Faça parte da nossa página, junte-se aos Amantes de Tatuagem com o seu depoimento!</p>
                 </div>
             </section>
 
-            <h2>Caso queira nos contar um pouco da sua hitória de como começou sua paixão, nos envie uma mensagem.</h2>
-            <ul>
-                <li>Qual a tatuagem que mais gosta?</li>
-                <li>Quantas tatuagens você tem?</li>
-                <li>Com quantos anos fez a 1ª tatuagem?</li>
-            </ul>
+            <h2 id="estilo">Caso queira nos contar um pouco da sua hitória de como começou sua paixão, nos envie uma mensagem.</h2>
+
+            <div class="conteudo-perguntas">
+                <ul class="lista-perguntas">
+                    <li class="itens">Qual a tatuagem que mais gosta?</li>
+                    <li class="itens">Quantas tatuagens você tem?</li>
+                    <li class="itens">Com quantos anos fez a 1ª tatuagem?</li>
+                </ul>
+            </div>
+
 			<form>
 				<label for="nomesobrenome">Nome e sobrenome</label>
 				<input type="text" id="nomesobrenome" class="input-padrao" required>
@@ -57,7 +61,7 @@
 				<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
 
 				<fieldset>
-					<legend>Como prefere o nosso retorno?</legend>
+					<legend>Como gostaria de receber nosso retorno?</legend>
 					<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
 					
 
@@ -69,8 +73,6 @@
 				</fieldset>
 
 				
-
-				<label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por e-mail?</label>
 				<input type="submit" value="Enviar formulário" class="enviar">
 			</form>
 
