@@ -16,8 +16,9 @@ body {
 
 header{
     background: #2e2e2e;
-    
-    
+    width: 100%;  
+    height: 83px;  
+
 }
 
 .caixa {
@@ -70,6 +71,16 @@ nav a:hover {
     box-shadow: 10px 10px 5px hsl(217, 12%, 63%);
     border: 2px solid black;
      
+}
+
+#banner-mobile{
+    display: flex;
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    box-shadow: 10px 10px 5px hsl(217, 12%, 63%);
+    border: 2px solid black; 
 }
 
 /* _______________________HOME____________________________ */
@@ -415,7 +426,7 @@ section > img {
 .depoimento1{
    display: flex;
   align-items: center;
-  margin-left: 180px;
+  margin-left: auto;
 }
 
 #fi{
@@ -438,7 +449,7 @@ section > img {
 .depoimento2{
    display: flex;
   align-items: center;
-  margin-left: 180px;
+  margin-left: auto;
 }
 
 #fj{
@@ -461,7 +472,7 @@ section > img {
 .depoimento3{
    display: flex;
   align-items: center;
-  margin-left: 180px;
+  margin-left: auto;
 }
 
 #fc{
@@ -484,7 +495,7 @@ section > img {
 .depoimento4{
    display: flex;
   align-items: center;
-  margin-left: 180px;
+  margin-left: auto;
 }
 
 /* ____________________CONTATO_______________________ */
@@ -512,24 +523,17 @@ section > img {
     color: white;
 }
 
-form {
-	/* margin: 40px 0;    */
-}
+
 
 form label, form legend {
 	display: block;
 	font-size: 20px;
-	/* margin: 0 0 10px; */
-    color: hsl(217, 12%, 63%);
+	color: hsl(217, 12%, 63%);
     margin-bottom: 5px;
 }
 
 .contato{
     display: block;
-    /* margin-left: 375px;
-    margin-top: 35px;
-    width: 100%;
-    margin: auto; */
     margin-left: auto;
     margin-right: auto;
     width: 100vw;
@@ -582,6 +586,274 @@ form label, form legend {
 	transform: scale(1.2);
 }
 
+@media screen and (min-width:971px){
+    #banner-mobile{
+        display: none;
+    }
+}
+
+@media screen and (max-width:970px) {
+
+    header{
+        width: 100%;
+        height: 100px;
+    }
+
+    body{
+        width: auto;
+    }
+
+    .caixa{
+       
+        width: auto;
+    }
+    #logo{
+        position: absolute;
+        margin-left: 15px;
+        margin-right: auto;
+        width: 110px;
+        height: 50px;
+    }
+
+    nav{
+        position: relative;
+        top: 75px;
+        right: 0;
+    }
+    ul{
+        position: absolute;
+        /* width: auto;
+        top:10px;  */
+        
+        
+    }
+
+    li a{
+        
+        font-size: 15px;
+    }
+
+    #banner{
+        width: auto;        
+        display: none;
+       
+
+    }
+
+    .titulo{
+        width: auto;
+        margin: auto;
+        padding: 35px;
+    }
+
+    .principal{
+        margin: 40px;
+    }
+
+    #estilo{
+        margin: 40px;
+    }
+
+
+    h1{
+        margin: auto;
+        width: auto;
+        padding: 35px;
+    }
+
+    .categoria1{
+        display: flex;
+        flex-direction: column;
+        
+        width: auto;
+    }
+
+    .fine{
+        margin-bottom: 40px;
+    }
+    .categoria2{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+
+    .depoimento1{
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+       margin-left: auto;
+     }
+     
+     
+     #fm{
+        width: 280px;
+        height: 400px;
+        margin: 40px;
+        border: 2px solid black;
+        box-shadow: 0px 0px 10px black; 
+    }
+    
+    #tm{
+        width: auto;
+        /* height: 280px;   */
+        text-align: justify;
+        margin: 40px;
+        margin-top: 0;
+        /* padding-top: 20px; */
+        color: hsl(217, 12%, 63%);
+    }
+    
+    .depoimento2{
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+       margin-left: auto;
+       margin-top: 80px;
+     }
+     
+    
+    #fi{
+        width: 280px;
+        height: 400px;
+        margin: 40px;
+        border: 2px solid black;
+        box-shadow: 0px 0px 10px black; 
+    }
+    
+    #ti{
+        width: auto;
+        height: auto;  
+        text-align: justify;
+        margin: 40px;
+        padding-top: 0;
+        color: hsl(217, 12%, 63%);
+    }
+    
+    .depoimento3{
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+       margin-left: auto;
+     }
+    
+    #fj{
+        width: 280px;
+        height: 400px;
+        margin: 40px;
+        border: 2px solid black;
+        box-shadow: 0px 0px 10px black; 
+    }
+    
+    #tj{
+        width: auto;
+        height: auto;  
+        text-align: justify;
+        margin: 40px;
+        padding-top: 0x;
+        color: hsl(217, 12%, 63%);
+    }
+    .depoimento4{
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+       margin-left: auto;
+     }
+   
+    
+    #fc{
+        width: 280px;
+        height: 400px;
+        margin: 40px;
+        border: 2px solid black;
+        box-shadow: 0px 0px 10px black; 
+    }
+    
+    #tc{
+        width: auto;
+        height: auto;  
+        text-align: justify;
+        margin: 40px;
+        padding-top: 0;
+        color: hsl(217, 12%, 63%);
+    }
+/* ________________________FORMULARIO_______________________ */
+
+    .estilo{
+        margin: 40px;
+        margin-top: 0;
+
+    }
+
+    .lista-perguntas{
+    width: auto;
+    margin: auto;
+	/* display: flex;
+    flex-direction: column; */
+	display: block;
+    align-items: center;
+    text-align: center;
+    }
+
+    .itens{
+    margin-left: 60px;
+    margin-right: auto;
+    line-height: 1.5;
+    text-align: center;
+    }
+
+    .contato{
+        display: block;
+        margin: auto;
+        width: auto;
+        margin-top: 120px;
+    }
+
+    .dados{
+        display: block;
+        margin: auto;
+        margin-left: 65px;
+        /* padding: 10px 25px; */
+        width: auto;
+    }
+   
+
+    .input-padrao {
+        display: block;
+        margin: auto;
+        
+        /* padding: 10px 25px; */
+        width: auto;
+        background-color: #e9e9e9; 
+        border-radius: 5px;   
+    }
+ 
+}
+
+
+
+    /* #logo {
+        display: block;
+        width: auto;
+       margin-left: auto;
+       margin-right: auto;
+        
+    } */
+
+    /* nav a{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 12px;
+
+    } */
+    
+/* } */
+
+
+
 /* @media ( max-width: 700px) {
 
     form, label, input {
@@ -591,7 +863,7 @@ form label, form legend {
 /* ______________________RESPONSIVIDAE_________________________ */
 
 /* @media screen and (min-width: 701px) {
-    html {
+    html 
         width: auto;
     }
 } */
