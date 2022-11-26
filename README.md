@@ -6,7 +6,7 @@ O objetivo desse projeto era trabalhar minhas habilidades com CSS, focando nos d
 
 ## 🚀 Link do projeto para visualização no navegador
 
-https://github.com/JennyLamego2022/Site-Amantes-de-Tatuagem
+https://jennylamego2022.github.io/Site-Amantes-de-Tatuagem
 
 
 ### 📋 Pré-requisitos
