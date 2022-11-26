@@ -1,16 +1,13 @@
 *{
     margin: 0;
-    font-family: 'Ubuntu', sans-serif;
-   
+    font-family: 'Ubuntu', sans-serif;   
 }
 
 body {
     font-size: 12px;
-    /* text-align: center; */
     background-color: #333132;
     color: white;
-    font-family: 'Ubuntu', sans-serif;
-    
+    font-family: 'Ubuntu', sans-serif;    
 }
 
 
@@ -18,7 +15,6 @@ header{
     background: #2e2e2e;
     width: 100%;  
     height: 83px;  
-
 }
 
 .caixa {
@@ -31,8 +27,7 @@ header{
 #logo{
     position: relative;
     width: 180px;
-    height: 80px;
-    
+    height: 80px;    
 }
 
 nav {
@@ -153,6 +148,19 @@ nav a:hover {
     font-family: 'Ubuntu', sans-serif;
 }
 
+#estilo-mobile{
+    text-align: center;
+    color: hsl(217, 12%, 63%);
+    margin-bottom: 15px;  
+    font-size: 18px;  
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#estilo-mobile:before{
+    content: "➯";
+    color: white;
+}
+
 #inspiracoes {
     width: 80%;
     height: 30%;
@@ -163,12 +171,10 @@ nav a:hover {
 
 .categoria1{
     display: flex;
-    /* flex-wrap: wrap; */
     flex-direction: row;
     justify-content: center;
     column-gap: 150px;
     font-size: 40px;
-    /* color: black; */
     color: #e9e9e9;
     text-shadow: 0px 0px 10px black; 
     font-family: 'Ubuntu', sans-serif;   
@@ -177,7 +183,7 @@ nav a:hover {
 
 .fine{
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 10vh 30vh 30vh 30vh;
     grid-gap: 15px; 
     border: 10px solid #666666;
@@ -189,8 +195,7 @@ nav a:hover {
     text-align: center;    
     grid-column: 1/3;
     grid-row:1/2;
-    padding-top: 10px;
-    
+    padding-top: 10px;    
 }
 
 .f1 {
@@ -198,10 +203,10 @@ nav a:hover {
     grid-row: 2/4;
     border: 2px solid black;
 }
+
 .f1:hover{
     transform: scale(1.1);
     transition: transform 0.5s;
-    /* box-shadow: 0px 10px bluer red; */
 }
 
 .f2 {
@@ -209,6 +214,7 @@ nav a:hover {
     grid-row: 4/5;
     border: 2px solid black;
 }
+
 .f2:hover{
     transform: scale(2.1);
     transition: transform 0.3s;
@@ -239,16 +245,13 @@ nav a:hover {
     text-align: center;    
     grid-column: 1 / 3;
     grid-row: 1 / 2;
-    padding-top: 10px;
-    
+    padding-top: 10px;    
 }
 
 .r1 {
     grid-column: 1 / 3;
     grid-row: 2 / 4;    
-    border: 2px solid black;
-   
-
+    border: 2px solid black; 
 }
 
 .r1:hover{
@@ -256,12 +259,12 @@ nav a:hover {
     transition: transform 0.3s;
 }
 
-
 .r2 {
     grid-column: 1 / 2;
     grid-row: 4 / 5 ;
     border: 2px solid black;
 }
+
 .r2:hover{
     transform: scale(2.1);
     transition: transform 0.3s;
@@ -272,6 +275,7 @@ nav a:hover {
     grid-row: 4 / 5;
     border: 2px solid black;
 }
+
 .r3:hover{
     transform: scale(2.1);
     transition: transform 0.3s;
@@ -500,9 +504,7 @@ section > img {
 
 /* ____________________CONTATO_______________________ */
 .conteudo-perguntas{
-	/* width: 640px; */
-	/* margin: 0 auto; */
-    text-align: center;
+	text-align: center;
 }
 
 .lista-perguntas {
@@ -523,8 +525,6 @@ section > img {
     color: white;
 }
 
-
-
 form label, form legend {
 	display: block;
 	font-size: 20px;
@@ -537,8 +537,7 @@ form label, form legend {
     margin-left: auto;
     margin-right: auto;
     width: 100vw;
-    margin-top: 50px;
-    
+    margin-top: 50px;    
 }
 
 .input-padrao {
@@ -561,7 +560,6 @@ form label, form legend {
 .checkbox {
 	margin: 20px 0;  
     margin-bottom: 10px;
-
 }
 
 .enviar {
@@ -577,8 +575,7 @@ form label, form legend {
 	border: none;
 	border-radius: 5px;
     transition: 1s all;
-	cursor: pointer;
-        
+	cursor: pointer;        
 }
 
 .enviar:hover {
@@ -588,6 +585,9 @@ form label, form legend {
 
 @media screen and (min-width:971px){
     #banner-mobile{
+        display: none;
+    }
+    #estilo-mobile{
         display: none;
     }
 }
@@ -621,23 +621,16 @@ form label, form legend {
         right: 0;
     }
     ul{
-        position: absolute;
-        /* width: auto;
-        top:10px;  */
-        
-        
+        position: absolute;      
     }
 
     li a{
-        
         font-size: 15px;
     }
 
     #banner{
         width: auto;        
-        display: none;
-       
-
+        display: none;      
     }
 
     .titulo{
@@ -654,7 +647,6 @@ form label, form legend {
         margin: 40px;
     }
 
-
     h1{
         margin: auto;
         width: auto;
@@ -663,19 +655,24 @@ form label, form legend {
 
     .categoria1{
         display: flex;
-        flex-direction: column;
-        
+        flex-direction: column;        
         width: auto;
     }
 
     .fine{
         margin-bottom: 40px;
     }
+
+    .black-work{
+        margin-bottom: 40px;
+
+    }
     .categoria2{
         display: flex;
         flex-direction: column;
         width: auto;
     }
+    
 
     .depoimento1{
         display: flex;
@@ -695,11 +692,9 @@ form label, form legend {
     
     #tm{
         width: auto;
-        /* height: 280px;   */
         text-align: justify;
         margin: 40px;
         margin-top: 0;
-        /* padding-top: 20px; */
         color: hsl(217, 12%, 63%);
     }
     
@@ -708,14 +703,14 @@ form label, form legend {
         flex-direction: column;
        align-items: center;
        margin-left: auto;
-       margin-top: 80px;
+       margin-top: auto;
      }
-     
-    
+         
     #fi{
         width: 280px;
         height: 400px;
         margin: 40px;
+        margin-top: 100px;
         border: 2px solid black;
         box-shadow: 0px 0px 10px black; 
     }
@@ -758,8 +753,7 @@ form label, form legend {
        align-items: center;
        margin-left: auto;
      }
-   
-    
+       
     #fc{
         width: 280px;
         height: 400px;
@@ -782,23 +776,18 @@ form label, form legend {
         margin: 40px;
         margin-top: 0;
 
-    }
+    }    
 
     .lista-perguntas{
     width: auto;
     margin: auto;
-	/* display: flex;
-    flex-direction: column; */
 	display: block;
-    align-items: center;
-    text-align: center;
+    
+   
     }
 
     .itens{
-    margin-left: 60px;
-    margin-right: auto;
-    line-height: 1.5;
-    text-align: center;
+    display: none;    
     }
 
     .contato{
@@ -806,131 +795,8 @@ form label, form legend {
         margin: auto;
         width: auto;
         margin-top: 120px;
-    }
-
-    .dados{
-        display: block;
-        margin: auto;
-        margin-left: 65px;
-        /* padding: 10px 25px; */
-        width: auto;
-    }
-   
-
-    .input-padrao {
-        display: block;
-        margin: auto;
-        
-        /* padding: 10px 25px; */
-        width: auto;
-        background-color: #e9e9e9; 
-        border-radius: 5px;   
-    }
+    }  
  
 }
-
-
-
-    /* #logo {
-        display: block;
-        width: auto;
-       margin-left: auto;
-       margin-right: auto;
-        
-    } */
-
-    /* nav a{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction:row;
-        align-items: center;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 12px;
-
-    } */
-    
-/* } */
-
-
-
-/* @media ( max-width: 700px) {
-
-    form, label, input {
-   align-items: center
-    } */
-
-/* ______________________RESPONSIVIDAE_________________________ */
-
-/* @media screen and (min-width: 701px) {
-    html 
-        width: auto;
-    }
-} */
-
-/* @media screen and (min-width: 400px) {
-
-   
-    
-    html {
-        width: auto;
-    }
-
-    nav, header, body,.estilo, #estilo {
-        width: auto;
-    }
-
-    header{
-        width: auto;
-    }
-
-    .caixa{
-        display: block;
-       
-        text-align: center;
-        
-        width: auto;
-        height: 150px;
-       
-    }
-    .logo{
-        text-align: center;
-    }
-
-    ul{
-        padding-top: 100px;
-        margin: 0;
-        width: auto;
-    }
-    .nav a{        
-        padding-top: 50px;
-        margin: 0;
-       text-align: end;
-    }
-
-    #inspiracoes{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        width: auto;
-        max-width: 670px;
-                
-    }
-
-    .categoria1{
-        display: block;
-        width: auto;
-    }
-
-    .categoria2{
-        display: block;
-        width: auto;
-    }
-} */
-
-
-
-
-
 
 
