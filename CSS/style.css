@@ -795,7 +795,61 @@ form label, form legend {
         width: auto;
         margin-top: 120px;
     }  
- 
+
+    .f1:hover{       
+        transform: none;
+        transition: none;
+    }
+
+    .f2:hover{       
+        transform: none;
+        transition: none;
+    }
+
+    .f3:hover{       
+        transform: none;
+        transition: none;
+    }
+    
+    .r1:hover{       
+        transform: none;
+        transition: none;
+    }
+    .r2:hover{       
+        transform: none;
+        transition: none;
+    }
+    .r3:hover{       
+        transform: none;
+        transition: none;
+    }
+    .b1:hover{       
+        transform: none;
+        transition: none;
+    }
+    .b2:hover{       
+        transform: none;
+        transition: none;
+    }
+    .b3:hover{       
+        transform: none;
+        transition: none;
+    }
+
+    .a1:hover{       
+        transform: none;
+        transition: none;
+    }
+    .a2:hover{       
+        transform: none;
+        transition: none;
+    }
+    .a3:hover{       
+        transform: none;
+        transition: none;
+    }
 }
+
+
 
 
