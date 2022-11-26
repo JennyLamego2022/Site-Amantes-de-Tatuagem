@@ -1,9 +1,3 @@
-# Site-Amantes-de-Tatuagem
-Local onde pessoas com a mesma paixão podem trocar ideias e inspiração.
-
-
-
-
 # <h1 align="center"> Site Amantes de Tatuagem</h1>
 
 A comunidade dos amantes de tatuagem só cresce, logo a idéia do site é poder reunir inspirações para que os usuários possam se inspirar. 
