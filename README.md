@@ -39,4 +39,4 @@ https://code.visualstudio.com/download
 
 
 ---
-⌨️ com ❤️ por [Jennyfer Lamego - Dev em Desenvolvimento 😊]
+⌨️ com ❤️ por [Jennyfer Lamego]
