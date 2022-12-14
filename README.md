@@ -9,15 +9,24 @@ O objetivo desse projeto era trabalhar minhas habilidades com CSS, focando nos d
 https://jennylamego2022.github.io/Site-Amantes-de-Tatuagem
 
 
-### 📋 Pré-requisitos
+# 📋  Pré-requisitos para rodar <a name="id05"></a>
 
-Para que possa baixar esse projeto, será necessario ter instalado em sua máquina um Visual Studio Code.
-Uma opção de link para o download:
+<br />
 
-```
+- [x] Editor de código de sua preferência (recomendado VS code)
+- [x] Git
+- [x] ?
 
-https://code.visualstudio.com/download
+<br />
 
+# 📝 Procedimentos de instalação <a name="id06"></a>
+
+<br />
+
+Clone este repositório usando o comando:
+
+```bash
+git clone https://github.com/<meu_user>/<my-repo>.git
 ```
 
 
@@ -32,10 +41,6 @@ https://code.visualstudio.com/download
 ![CSS3](https://user-images.githubusercontent.com/109250801/201540546-9fa528be-4b05-4424-8e63-a93c2268cd43.png)
 ![javascript](https://user-images.githubusercontent.com/109250801/202785928-79bba976-75ce-41ed-b427-26e541680893.png)
 
-## 🎁 Expressões de gratidão
-
-* Conte a outras pessoas sobre este projeto 📢
-* Agradeço a todos osque fazem parte dessa nova etapa!! 
 
 
 ---
